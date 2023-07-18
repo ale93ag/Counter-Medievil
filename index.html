@@ -12,7 +12,7 @@
     integrity="sha512-..." crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/CSS/style.css">
     <link rel="stylesheet" href="assets/CSS/main.css">
-    <script src="JS/script.js"></script>
+    <script src="assets/JS/script.js"></script>
     <title>Counter of Alessandra Galotta</title>
 </head>
 <body>
@@ -21,16 +21,16 @@
     </header>
     <main class="contenitore">
         <div class=" contenitore-reset">
-            <button class="button-reset"><i class="fas fa-undo"></i>Reset</button>
+            <button onclick="reset()" class="button-reset"><i class="fas fa-undo"></i>Reset</button>
         </div>
         <span class="count">0</span>
         <div class="contenitore-meno">
-            <button class="button-less"><span class="sign">-</span>
+            <button onclick="diminuisci()" class="button-less"><span class="sign">-</span>
                 <img class="bara" src="assets/Icone/coffin.png" alt="immagine di una bara">
             </button>
         </div>
         <div class="contenitore-più">
-            <button class="button-plus"><span class="sign">+</span> 
+            <button onclick="aggiungi()" class="button-plus"><span class="sign">+</span> 
                 <img class="bara" src="assets/Icone/coffin.png" alt="immagine di una bara">
             </button>
         </div>

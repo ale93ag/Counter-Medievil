@@ -1,67 +1,66 @@
 main {
-    position: relative;
+  position: relative;
 }
 span {
-  color: #cda434;
-  display: flex;
-  justify-content: center;
-  padding-top: 150px;
-  font-size: 150px;
+color: #cda434;
+display: flex;
+justify-content: center;
+padding-top: 150px;
+font-size: 150px;
 }
 .contenitore-reset{
-  display: flex;
-  justify-content: center;
+display: flex;
+justify-content: center;
 }
 .button-reset {
-  height: 100px;
-  width: 200px;
-  font-size:30px;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 7px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-  color:#cda434;
-  font-size: 40px;
+height: 100px;
+width: 200px;
+font-size:30px;
+background-color: rgba(255, 255, 255, 0.4);
+border-radius: 7px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+font-size: 40px;
 }
 .bara {
-  width: 30px;
-  height: 50px;
+width: 30px;
+height: 50px;
 }
 .contenitore-meno,
 .contenitore-più {
-  display: inline-block;
-  vertical-align: top;
+display: inline-block;
+vertical-align: top;
 }
 
 .contenitore-meno {
-  margin-left:400px ;
-  margin-right: 500px; /* Aggiungo un margine destro per separare i div */
+margin-left:400px ;
+margin-right: 500px; /* Aggiungo un margine destro per separare i div */
 }
 .button-less {
-  height: 80px;
-  width: 110px;
-  border-radius: 7px;
-  font-size: 10px;
-  background-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+height: 80px;
+width: 110px;
+border-radius: 7px;
+font-size: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
 .button-less,
 .button-plus {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .sign {
-  margin-top: -140px;
+margin-top: -140px;
 }
 .button-plus {
-  height: 80px;
-  width: 110px;
-  border-radius: 7px;
-  font-size: 10px;
-  background-color: rgba(255, 255, 255, 0.4);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+height: 80px;
+width: 110px;
+border-radius: 7px;
+font-size: 10px;
+background-color: rgba(255, 255, 255, 0.4);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
