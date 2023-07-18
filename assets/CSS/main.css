@@ -5,7 +5,7 @@ span {
   color: #cda434;
   display: flex;
   justify-content: center;
-  padding-top: 170px;
+  padding-top: 150px;
   font-size: 150px;
 }
 .contenitore-reset{
@@ -17,9 +17,49 @@ span {
   width: 200px;
   font-size:30px;
   background-color: rgba(255, 255, 255, 0.5);
-  border: none;
+  border-radius: 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.bara {
+  width: 30px;
+  height: 50px;
+}
+.contenitore-meno,
+.contenitore-più {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contenitore-meno {
+  margin-left:400px ;
+  margin-right: 500px; /* Aggiungo un margine destro per separare i div */
+}
+.button-less {
+  height: 80px;
+  width: 110px;
+  border-radius: 7px;
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.button-less,
+.button-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign {
+  margin-top: -140px;
+}
+.button-plus {
+  height: 80px;
+  width: 110px;
+  border-radius: 7px;
+  font-size: 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
