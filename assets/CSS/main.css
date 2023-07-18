@@ -13,16 +13,18 @@ span {
   justify-content: center;
 }
 .button-reset {
-  height: 90px;
+  height: 100px;
   width: 200px;
   font-size:30px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 7px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  color:#cda434;
+  font-size: 40px;
 }
 .bara {
   width: 30px;
