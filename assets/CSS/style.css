@@ -1,12 +1,12 @@
 * {
   cursor: url(../Icone/hand-bones.png), default;
+  font-family: MedievalSharp;
 }
 body {
   background-image: url(../Immagini/images.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  font-family: MedievalSharp;
   
 }
 .header {
