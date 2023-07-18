@@ -1,0 +1,35 @@
+* {
+  cursor: url(../Icone/hand-bones.png), default;
+}
+body {
+  background-image: url(../Immagini/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: MedievalSharp;
+  
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 100px;
+}
+
+.header h1 {
+  color: #cda434;
+  font-size: 50px;
+}
+footer {
+  position: fixed;
+  bottom: 70px;
+}
+footer audio {
+  position: absolute;
+  display: flex; 
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+  
+  
