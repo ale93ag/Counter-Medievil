@@ -6,7 +6,7 @@ Come potete notare il progetto ricrea un normale contatore, che ti consetirà di
 Ho deciso di creare un contatore a tema Medievil in quanto sono un appassionata di videogiochi retrò.
 Il mio intento è stato quello di regalare a voi le stesse emozioni che provo io quando mi immergo nella mia infazia.
 
-Per poter creare questo progetto ho utilizzato il classico linguaggio HTML inserito all'interno del file index.html.
+Per poter creare questo progetto ho utilizzato il classico linguaggio HTML, misto a CSS e al linguaggio JavaScript, il codice HTML è inserito all'interno del file index.html.
 E'presente poi una cartella assets all'interno della quale ho inserito diverse cartelle:
  - Cartella Immagini, la quale contiene tutte le immagini utilizzate nel progetto
  - Cartella Icone, contiene le icone utiliizate,
