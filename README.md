@@ -5,4 +5,6 @@ Il mio intento è quello di regalare a voi le stesse emozioni che provo io quand
 L'utilizzo del contatore è molto semplice, sono presenti i classici tasti "+" e "-" che mantengono la loro funzione, ovvero quello di incrementare o diminuire il valore del Count.
 Ho deciso però di aggiungere una funzione che consente di impostare il valore che vogliamo aggiungere o sottrarre al contatore. Ricorda sempre du cliccare su Imposta una volta scelto il valore.
 Per un utilizzo più "Immersivo" si consiglia di attivare l'audio, in quanto molti Browser bloccano l'autoplay.
-![Immagine di come appare il contatore](Immagine 2023-07-19 094706.png)
+
+
+![Uploading Immagine 2023-07-19 094706.png…]()
