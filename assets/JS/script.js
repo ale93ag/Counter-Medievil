@@ -137,6 +137,12 @@ const divIncremento = document.createElement('div');
 divIncremento.setAttribute('class', 'incremento');
 main.appendChild(divIncremento);
 
+//creo il label dell'input
+const label = document.createElement('label');
+label.setAttribute('for', 'incrementoInput');
+label.textContent = 'Imposta valore:'
+divIncremento.appendChild(label);
+
 //creo l'input per inserire il valore
 const input = document.createElement('input');
 input.setAttribute('id', 'incrementoInput');
@@ -144,11 +150,6 @@ input.setAttribute('type', 'number');
 input.value = '1';
 divIncremento.appendChild(input);
 
-//creo il label dell'input
-const label = document.createElement('label');
-label.setAttribute('for', 'incrementoInput');
-label.textContent = 'Imposta valore:'
-divIncremento.appendChild(label);
 
 const buttonImposta = document.createElement('button');
 buttonImposta.setAttribute('class', 'impostaValoreIncremento');
